@@ -6,7 +6,7 @@ function incrementClick() {
 }
 
 function displayPopup() {
-    if (5 <= clickCounter < 10) {
+    if (5 <= clickCounter && clickCounter < 10) {
         alert("Bravo, bel échauffement !")
     }
     if (10 <= clickCounter) {
